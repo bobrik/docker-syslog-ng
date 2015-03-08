@@ -4,7 +4,7 @@ RUN apk-install syslog-ng
 
 ADD ./syslog-ng.conf /etc/syslog-ng/syslog-ng.conf
 
-VOLUME ["/var/log/syslog"]
+VOLUME ["/var/log/syslog-ng"]
 
 EXPOSE 514/tcp 514/udp
 
