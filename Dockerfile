@@ -1,6 +1,7 @@
 FROM gliderlabs/alpine:3.1
 
-RUN apk-install syslog-ng
+ADD ./build.sh /build.sh
+RUN /build.sh
 
 ADD ./syslog-ng.conf /etc/syslog-ng/syslog-ng.conf
 
