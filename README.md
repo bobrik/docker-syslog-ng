@@ -1,6 +1,6 @@
 # syslog-ng in docker
 
-Minimal syslog-ng container (16mb) that writes logs to `/var/log/syslog-ng/$PROGRAM/$PROGRAM.log`.
+Minimal syslog-ng container (18mb) that writes logs to `/var/log/syslog-ng/$PROGRAM/$PROGRAM.log`.
 
 Exposed inputs:
 
